@@ -5,32 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <div class="header">
 
             <div class="header-top">
-                <img src="./assets/icons/magnify.svg">
-                <input type="text">
-                <img src="./assets/icons/bell-ring-outline.svg">
-                <img class="profile-pic" src="./assets/cat-profile.jpg">
-                <p>Morgan Oakley</p>
+                <div>
+                    <img src="./assets/icons/magnify.svg">
+                    <input type="text">
+                </div>
+                <div>
+                    <img src="./assets/icons/bell-ring-outline.svg">
+                    <img class="profile-pic" src="./assets/cat-profile.jpg">
+                    <p>Morgan Oakley</p>
+                </div>
             </div>
 
             <div class="header-bottom">
-                <img src="./assets/cat-profile.jpg">
-                <p>Hi there,</p>
-                <p>Morgan Oakley (@morgan)</p>
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+                <div>
+                    <img src="./assets/cat-profile.jpg">
+                    <div>
+                        <p>Hi there,</p>
+                        <p class="username">Morgan Oakley (@morgan)</p>
+                    </div>
+                </div>
+                <div>
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
             </div>
 
         </div>
 
         <div class="sidebar">
-            <div class="heading">
+            <div class="heading sidebar-option">
                 <img src="./assets/icons/view-dashboard.svg">
                 <h1>Dashboard</h1>
             </div>
