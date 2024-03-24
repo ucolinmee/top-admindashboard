@@ -10,7 +10,7 @@ img {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 20vh 80vh;
 }
 
@@ -72,7 +72,6 @@ img {
 }
 
 .header-bottom p {
-    /* margin-bottom: 0px; */
     font-weight: 700;
     margin-bottom: 5px;
 }
@@ -100,9 +99,30 @@ img {
     color: #fff;
 }
 
+.sidebar > .heading {
+  margin-left: 30px;
+  gap: 8px;
+}
+
+.sidebar > .heading > img {
+  height: 45px;
+}
+
+.sidebar > .heading > h1 {
+  font-weight: 700;
+}
+
 .sidebar-option {
     display: flex;
     flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.sidebar-option p {
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .main {
